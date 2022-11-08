@@ -17,5 +17,4 @@ public class ApiUser {
                     .log().all()
                     .extract().response().as(UserResponseModel.class);
     }
-
 }

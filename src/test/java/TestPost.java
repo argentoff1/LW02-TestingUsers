@@ -11,6 +11,5 @@ public class TestPost {
         model = stepUser.createUser("morpheus", "leader");
         Assert.assertEquals(model.getName(),"morpheus");
         Assert.assertEquals(model.getJob(),"leader");
-
     }
 }
